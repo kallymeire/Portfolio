@@ -1,40 +1,60 @@
-# 🚀 Kallymeire Coelho — Portfólio Profissional
+# Portfólio | Kallymeire Coelho
 
-![Status](https://img.shields.io/badge/status-ativo-success)
-![HTML5](https://img.shields.io/badge/HTML5-TailwindCSS-orange)
-![JavaScript](https://img.shields.io/badge/Frontend-Interativo-blue)
+Site pessoal de Kallymeire Coelho, estudante de Engenharia de Software (UNINTER, conclusão em dez/2026), com foco em backend (Java e Python), automação com n8n, cloud e DevOps.
 
-Portfólio pessoal desenvolvido para apresentar projetos de desenvolvimento de software, automações inteligentes, ciência de dados e engenharia de sistemas.
+Site: https://kallymeire-coelho-portfolio.netlify.app
 
-🔗 **Acesse o portfólio online:** [Seu Link do Netlify Aqui]
+## Recursos
 
----
+- Tema escuro responsivo, em HTML, CSS e JavaScript puros (sem frameworks e sem etapa de build)
+- Fundo de partículas interativo, efeito de digitação, inclinação 3D e contadores animados
+- Competências em abas e projetos com filtro por categoria e por tecnologia
+- Cards de certificações que expandem ao clicar
+- Botão para copiar o e-mail e para baixar o currículo
+- Respeita a preferência de movimento reduzido do sistema
 
-## 🛠️ Tecnologias Utilizadas
+## Estrutura
 
-Este projeto foi construído priorizando performance, design responsivo e experiência de usuário moderna:
+```
+.
+├── index.html
+├── css/style.css
+├── js/main.js
+├── assets/
+│   ├── foto.jpg
+│   └── Curriculo_Kallymeire_Coelho.pdf
+├── netlify.toml
+└── README.md
+```
 
-- **HTML5 & Tailwind CSS (v4)** — Estrutura semântica e estilização moderna com design *Glassmorphism*
-- **JavaScript (ES6+)** — Interatividade e fluidez na navegação
-- **FontAwesome** — Ícones vetoriais dinâmicos
-- **Google Fonts (Inter)** — Tipografia limpa e focada em legibilidade (estilo ATS/Tech)
+## Rodar localmente
 
----
+Abra o `index.html` no navegador ou, se preferir um servidor local:
 
-## 📂 Seções do Portfólio
+```bash
+python3 -m http.server 8000
+```
 
-- **Apresentação (Hero):** Breve introdução com foco em Engenharia de Software e Automações.
-- **Sobre Mim:** Resumo da trajetória acadêmica, experiência em infraestrutura e visão técnica.
-- **Competências Técnicas:** Categorizadas por Automação/APIs, Dados/Backend e DevOps/Ferramentas.
-- **Projetos em Destaque:** Exposição de soluções reais desenvolvidas (Dashboards de KPIs, Automação de Documentos e Web Scrapers).
-- **Contato & Redes:** Links diretos para GitHub, LinkedIn e e-mail profissional.
+Depois acesse http://localhost:8000.
 
----
+## Como personalizar
 
-## 👩‍💻 Autoria
+Os dados ficam no começo do arquivo `js/main.js`:
 
-Desenvolvido com dedicação por **Kallymeire Coelho**.
+- `SK`: áreas de competências e suas ferramentas
+- `PJ`: projetos (nome, categoria, link, descrição e tecnologias)
+- `CR`: certificações e cursos
+- `STK`: botões de tecnologia usados no filtro de projetos
 
-- GitHub: [@kallymeire](https://github.com/kallymeire)
-- LinkedIn: [Kallymeire Coelho](https://www.linkedin.com/in/kallymeire-coelho-212746263/)
+Para trocar a foto ou o currículo, substitua os arquivos em `assets/` mantendo os mesmos nomes.
+
+## Publicar
+
+- **Netlify:** arraste a pasta do projeto em Deploys, ou conecte este repositório.
+- **GitHub Pages:** em Settings > Pages, escolha a branch `main` e a pasta `/ (root)`.
+
+## Contato
+
 - E-mail: okallymeire@gmail.com
+- LinkedIn: https://www.linkedin.com/in/kallymeire-coelho-212746263/
+- GitHub: https://github.com/kallymeire
